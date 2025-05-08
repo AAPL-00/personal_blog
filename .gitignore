@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtualenv
+.env/
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.sqlite3
+
+# Coverage / Testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+.pytest_cache/
+coverage.xml
+nosetests.xml
+test-results/
+
+# MyPy / Pyright / Ruff / etc.
+.mypy_cache/
+.pyright/
+ruff_cache/
+
+# System files
+.DS_Store
+Thumbs.db
