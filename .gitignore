@@ -59,3 +59,5 @@ ruff_cache/
 # System files
 .DS_Store
 Thumbs.db
+
+.ropeproject
